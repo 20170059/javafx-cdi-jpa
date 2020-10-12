@@ -1,6 +1,6 @@
 # JPA/CDI Command Line Application Example
 
-This example shows how to use Context and Dependency Injection in a JavaFX-Application.
+This example shows how to use Context and Dependency Injection in a JavaFX-Application and in Quarkus.
 
 Database
 ===
@@ -15,7 +15,14 @@ To reset the project and clean the database run
 make clean
 ```
 
-Running
-===
+JavaFX
+---
+See the appliation subfolder
 
-You must start the application with the Main class at.ac.htl.util.ApplicationLauncher to get dependency Injection working
+appsrv
+---
+See the appsrv subfolder for how to use CDI in Quarkus
+
+www
+---
+see the www Subfolder for the javascript client
